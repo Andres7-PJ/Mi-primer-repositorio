@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Formulario</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		
+		<div class="form-container"> 
+        	<h1>Formulario de Inscripción</h1> 
+        	<form action="#" method="POST">
+           
+            	<label for="nombre">Nombre Completo:</label>
+            	<input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required> 
+
+
+            	<label for="nombre">Correo electronico:</label>
+            	<input type="text" id="nombre" name="nombre" placeholder="ejemplo@correo.com" required> 
+            	
+
+            </fieldset>
+
+           
+            <label for="pais">Selecciona un curso:</label>
+
+            <select id="pais" name="pais"> 
+                
+                
+                <option selected disabled value="Select">Seleccionar</option>            
+                <option value="HTML">HTML Básico</option>             
+                <option value="CSS">CSS Básico</option>      
+                <option value="JavaScrip">JavaScrip Básico</option>        
+            </select>
+
+
+            <div class="radio-group">
+               <label>Modalidad del curso:</label> 
+
+               <label for="Modalidad">
+               		<input type="radio" id="Online" name="Modalidad" value="Online" required>Online</label>
+                                  
+               <label for="Presensial">
+               		<input type="radio" id="Presensial" name="Modalidad" value="Presensial" required>Presensial</label>
+                    
+                    
+            </div>
+            <div class="checkbox-group"> 
+               <label>Temas de interes:</label> 
+
+               <label for="Online"><input type="checkbox" id="Online" name="Online" value="Online" required>Frontend</label>
+                                  
+               <label for="Presensial"><input type="checkbox" id="Presensial" name="Presensial" value="Presensial" required>Backend</label>
+
+               <label for="Presensial"><input type="checkbox" id="Presensial" name="Presensial" value="Presensial" required>FullStack</label>
+                    
+                    
+            </div>
+
+            <label for="mensaje">Mensaje:</label> <!-- Asocia el texto "Mensaje" al área de texto con id="mensaje". -->
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí"></textarea> 
+
+            <div class="linea">
+	            <button type="submit">Enviar</button>
+	            <button type="submit">limpiar</button>
+
+	        </div>
+
+
+
+
+
+
+
+
+
+	</body>
+</html>
